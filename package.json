@@ -1,15 +1,17 @@
 {
-  "name": "004-calculator",
+  "name": "react-calculator",
   "version": "0.0.1",
   "private": true,
-  "devDependencies": {
-    "react-scripts": "^1.1.4"
+  "engines":{
+	"npm": "6.1.0",
+	"node": "8.11.3"
   },
   "dependencies": {
     "immutability-helper": "^2.7.1",
     "mathjs": "^5.0.0",
     "react": "^16.4.1",
-    "react-dom": "^16.4.1"
+    "react-dom": "^16.4.1",
+	"react-scripts": "^1.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
